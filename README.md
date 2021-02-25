@@ -3,4 +3,4 @@ El objetivo de este proyecto es maquetar un formulario utilizando Grid Layout y 
 
 
 # Interfaz
-Para visualizar el proyecto puede acceder al siguiente enlace: [**Blog online**](https://jesusch92.github.io/maquetacion--grid-layout/)
+Para visualizar el proyecto puede acceder al siguiente enlace: [**Blog online**](https://jesusch92.github.io/maquetacion--registro/.)
