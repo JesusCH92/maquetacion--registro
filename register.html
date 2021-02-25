@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Form to register users.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="preload">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <section class="register">
+        <section class="register__container">
+            <h2>Register</h2>
+            <form class="register__container--form">
+                <div class="register__container--section">
+                    <label for="fullname__input">Full name</label>
+                    <input type="text" class="register__input" placeholder="Write your full name" id="fullname__input">
+                </div>
+                <div class="register__container--section">
+                    <label for="phone__input">Phone</label>
+                    <input type="number" class="register__input" placeholder="Write your phone" id="phone__input">
+                </div>
+                <div class="register__container--section">
+                    <label for="email__input">Email</label>
+                    <input type="text" class="register__input" placeholder="email@address.com" id="email__input">
+                </div>
+                <div class="register__container--section">
+                    <label for="password__input">Password</label>
+                    <input type="password" class="register__input" placeholder="Password" id="password__input">
+                </div>
+                <div class="register__container--section">
+                    <label for="repassword__input">Repeat password</label>
+                    <input type="password" class="register__input" placeholder="Repeat password" id="repassword__input">
+                </div>
+                <div class="register__container--section">
+                    <button class="button">Submit</button>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <script type="text/javascript" src="assets/js/utils/validator.js"></script>
+    <script type="text/javascript" src="assets/js/formModel.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>

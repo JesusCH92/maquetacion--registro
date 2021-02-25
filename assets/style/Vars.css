@@ -1,0 +1,10 @@
+:root {
+    --purple-color: #652384;
+    --white-color: #ffffff;
+    --danger-color: #ff6358;
+    --font-size-s: 14px;
+    --font-size-m: 18px;
+    --border-radius-form-container: 40px;
+    --border-radius-input: 8px;
+    --border-radius-button: 20px;
+}

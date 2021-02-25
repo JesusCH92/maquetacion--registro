@@ -1,0 +1,95 @@
+@import 'Vars.css';
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.register {
+    min-height: calc(100vh - 200px);
+    display: grid;
+    grid-template-columns: 100%;
+    place-items: center center;
+    padding: 2% 0;
+}
+
+.register__container {
+    width: 450px;
+    min-height: 650px;
+    border-radius: var(--border-radius-form-container);
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background: var(--white-color);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    color: var(--purple-color);
+    padding: 2%;
+}
+
+.register__container h2 {
+    align-self: center;
+    justify-self: center;
+    text-transform: uppercase;
+}
+
+.register__container--form {
+    display: grid;
+    grid-template-rows: repeat(5, 15%) 25%;
+    margin: 0 2%;
+}
+
+.register__container--section {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.register__container--section label {
+    align-self: center;
+    font-size: var(--font-size-m);
+    font-weight: bold;
+}
+
+.register__input {
+    font-size: var(--font-size-m);
+    border: 1px solid #dddddd;
+    padding: 2% 4%;
+    border-radius: var(--border-radius-input);
+    outline: none;
+    background-color: var(--white-color);
+}
+
+.register__input::placeholder {
+    color: #b8b8b8;
+}
+
+.register__container--section span {
+    position: absolute;
+    color: var(--danger-color);
+    bottom: 5%;
+    font-size: var(--font-size-s);
+    font-weight: bold;
+}
+.register__error--alert{
+    border-color: var(--danger-color);
+}
+
+.register__container--section > button {
+    width: 75%;
+    height: 35%;
+    align-self: center;
+    justify-self: center;
+    border: none;
+    border-radius: var(--border-radius-button);
+    color: var(--white-color);
+    font-size: var(--font-size-m);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    background: var(--purple-color);
+}
